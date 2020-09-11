@@ -76,3 +76,4 @@ Entry point to this docker image is connect-standalone.sh from kafka with parame
 - build a new docker image
 - Run a docker compose command to bring up all the services. If you want you can run this in detached mode by **docker-compose up -d**
 
+Find the code in [Gitlab](https://gitlab.com/gunnervj/demo-sink-elastic)
