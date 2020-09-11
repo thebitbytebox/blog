@@ -3,11 +3,12 @@ layout: post
 title:  "Kafka Connect Sink Connector"
 author: VJ
 categories: [ Kafka ]
-tags: [red, yellow]
+tags: [kafka, elasticsearch, connector, confluent, java, sink, elk]
 image: assets/images/kafka.png
 description: "A Demo Project for Kafka Connect Sink Connector."
 featured: true
 hidden: true
+comments: true
 ---
 As wisely said, why re-invent wheels? Kafka connect helps us with something like that.
 

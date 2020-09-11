@@ -8,6 +8,7 @@ image: assets/images/node-mongo.jpeg
 description: "A REST api using mongodb and nodejs"
 featured: true
 hidden: true
+comments: true
 ---
 
 When it comes to quickly whipping up a REST api for a POC, I love the combination of express, mongodb and nodejs. It is lightweight and easy to develop with a quick turn-around time for a POC devlopment.
