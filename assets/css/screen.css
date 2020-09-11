@@ -410,6 +410,14 @@ blockquote {
     color: black!important;
 }
 
+.centered-image {
+    text-align:  center;
+}
+
+.centered-image .featured-image {
+    display: inline;
+}
+
 @media (min-width:1024px) {
     .share ul li {
         display: block;
