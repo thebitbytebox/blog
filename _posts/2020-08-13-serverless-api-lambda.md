@@ -13,7 +13,7 @@ comments: true
 
 First let's see what we are going to develop.
 
-We are going to develop an API which helps us track a baby's weight. This API will support adding a new baby to track his/her weight. It also supports deleting, editing babies. Mostly we are dealing with the CRUD operations. To store the baby data we will use AWS dynamodb as the backend data store.
+We are going to develop an API that will helps us to track a baby's weight. This API will support adding a new baby to track his/her weight. It also supports deleting, editing babies. Mostly what we are dealing here is the CRUD operations. To store the baby data, we will use AWS dynamodb as the backend data store.
 
 We will develop these functions in nodejs and then use serverless framework to provision in AWS.
 

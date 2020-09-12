@@ -6,7 +6,7 @@ categories: [ Microservices ]
 tags: [mongodb, node, express, javascript, CRUD, REST, API]
 image: assets/images/node-mongo.jpeg
 description: "A REST api using mongodb and nodejs"
-featured: true
+featured: false
 hidden: true
 comments: true
 ---
