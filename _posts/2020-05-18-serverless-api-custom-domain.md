@@ -19,7 +19,7 @@ This domain is not beautiful, I mean how does one remember this?
 
 We could use a custom domain to overcome this. 
 
-For this, we need to have a domain name. You can purchase one in amazon or can purchase one from outside from ICANN-accredited registrar like namecheap, godaddy etc. Then you can use AWS DNS service by adding a hosted zone in route53.
+For this, we need to have a domain name. You can purchase one from amazon or from outside through an ICANN-accredited registrar like namecheap, godaddy etc. You can then use AWS DNS service by adding it to the hosted zone in route53.
 
 ### Create a hosted zone for the domain
 
@@ -34,7 +34,7 @@ Let's choose public and hit create.
 ![Hosted Zone]({{ site.baseurl }}/assets/images/hosted zone- create.png)
 
 
-This should create some name server records. If your domain is from an external source, take these NS records and add under the DNS management of your registrar. It would take sometime to get this resolved across the internet. For me it took approximately around 50 minutes.
+This should create some name server(NS) records. If your domain is from an external source, take these NS records and add it under the DNS management of your registrar. This would take sometime to get resolved across the internet. For me it took approximately around 50 minutes.
 
 ***Note***: do not add the . at the end of the NS records.
 
@@ -42,7 +42,7 @@ This should create some name server records. If your domain is from an external 
 
 ### SSL Certificate for the custom domain
 
-We can provision our ssl certificate using the AWS Certificate Manger. To do this, make sure you are on N. Virginia region as most of the AWS resources like cloud front requires your certificate in us-east-1 region.
+Now, we can provision our ssl certificate using the AWS Certificate Manger. To do this, make sure you are on N. Virginia region as most of the AWS resources like cloud front requires your certificate to be in us-east-1 region.
 
 
 To provision a public certificate, 
@@ -56,9 +56,9 @@ Now we need to validate the request by confirming the ownership of the domain. T
 - DNS Validation - Choose this if you can modify the DNS configuration.
 - Email Validation 
 
-Continuing will take you to the review screen, where we cam confirm the request. This will lead to the final step of Validation. Once validation  is complete, you can see the validation status changing from ```Validation complete``` from ```Pending Validation```.
+Continuing will take you to the review screen, where we can confirm the request. This will lead to the final step of Validation. Once validation  is complete, you can see the validation status changing from ```Validation complete``` from ```Pending Validation```.
 
-_***Note***: If you have chosen DNS validation, you can expand  the DNS names in the validation screen. There is the detail of adding CNAME to the DNS configuration of your domain. Add the ```CNAME``` in route53 under your domain name in the hosted zone._
+_***Note***: If you have chosen DNS validation, you can expand  the DNS names under the validation screen. There, you can find the details of adding the CNAME to the DNS configuration of your domain. Add the ```CNAME``` in route53 under your domain name in the hosted zone._
 
 ### Adding Custom Domain to the API Gateway
 
