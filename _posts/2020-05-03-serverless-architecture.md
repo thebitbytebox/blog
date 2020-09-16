@@ -6,7 +6,7 @@ categories: [ Serverless ]
 tags: [REST, API, serverless, AWS, lambda, api gateway]
 image: assets/images/serverless-logo.png
 description: "A quick introduction to the serverless framework"
-featured: true
+featured: false
 hidden: true
 comments: true
 ---
