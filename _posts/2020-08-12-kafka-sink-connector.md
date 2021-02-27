@@ -6,7 +6,7 @@ categories: [ Kafka ]
 tags: [kafka, elasticsearch, connector, confluent, java, sink, elk]
 image: assets/images/kafka.png
 description: "A Demo Project for Kafka Connect Sink Connector."
-featured: true
+featured: false
 hidden: true
 comments: true
 ---
