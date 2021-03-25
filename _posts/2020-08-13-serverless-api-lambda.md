@@ -6,7 +6,7 @@ categories: [ Serverless ]
 tags: [REST, API, serverless, AWS, lambda, api gateway, dynamodb]
 image: assets/images/lambda-api.png
 description: "A Serverless API using node and dynamodb"
-featured: true
+featured: false
 hidden: true
 comments: true
 ---

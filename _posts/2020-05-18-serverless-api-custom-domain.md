@@ -6,7 +6,7 @@ categories: [ Serverless ]
 tags: [REST, API, serverless, AWS, lambda, api gateway, route53]
 image: assets/images/route-53.png
 description: "A custom domain for you API gateway"
-featured: true
+featured: false
 hidden: true
 comments: true
 ---

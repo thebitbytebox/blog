@@ -6,7 +6,7 @@ categories: [ AWS, Amplify, Angular ]
 tags: [REST, API, serverless, AWS, lambda, API gateway, dynamodb]
 image: assets/images/amplify.png
 description: "Custom configuration of Amplify in Angular"
-featured: true
+featured: false
 hidden: true
 comments: true
 ---
