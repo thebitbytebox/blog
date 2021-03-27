@@ -85,7 +85,7 @@ This micro service takes in a lottery ticket number and lottery ticket id as inp
 HTTP POST http://<internal-service-discovery-host>/printer/api/v1/print
 ``
 
-The service then uses a ticket blueprint from S3 and imprints a QR code generate from lottery-id in the ticket blueprint. It then prints the ticket number in the blueprint and finally upload the image to a S3 bucket. Before responsding back, the service generates a s3 signed url that is valid for 15 minutes and sends the url in the response.
+The service then uses a ticket blueprint from S3 and imprints a QR code generated from lottery-id. It then prints the ticket number in the blueprint and finally upload the final ticket image to a S3 bucket. Before responding back, the service generates a s3 signed url that is valid for 15 minutes and sends the url in the response.
 
 ![ticket]({{ site.baseurl }}/assets/images/docker-fargate-boot/lottery-ticket.png)
 
