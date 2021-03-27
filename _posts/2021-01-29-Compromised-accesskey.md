@@ -2,7 +2,7 @@
 layout: post
 title:  "Compromised Access Key? Deal with it."
 author: VJ
-categories: [ AWS, IAM, Security ]
+categories: [ AWS  ]
 tags: [AWS, IAM]
 image: assets/images/iam.png
 description: "How to deal with a compromised Access Key"

@@ -2,7 +2,7 @@
 layout: post
 title:  "AWS Amplify - Manual configuration"
 author: VJ
-categories: [ AWS, Amplify, Angular ]
+categories: [ AWS ]
 tags: [REST, API, serverless, AWS, lambda, API gateway, dynamodb]
 image: assets/images/amplify.png
 description: "Custom configuration of Amplify in Angular"

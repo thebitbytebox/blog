@@ -2,7 +2,7 @@
 layout: post
 title:  "Docker Logs -> AWS CloudWatch"
 author: VJ
-categories: [ AWS, Docker ]
+categories: [ AWS ]
 tags: [AWS, Docker, CloudWatch, logs]
 image: assets/images/docker.png
 description: "How to send docker logs to cloudwatch"
