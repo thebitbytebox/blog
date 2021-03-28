@@ -89,7 +89,7 @@ The service then uses a ticket blueprint from S3 and imprints a QR code generate
 
 ![ticket]({{ site.baseurl }}/assets/images/docker-fargate-boot/lottery-ticket.png)
 
-## Service Monitoring
+## Service Logging and Distributed Tracing
 
 AWS XRay daemon runs as a side car container with each service. Services are instrumented with XRay SDK in order to generate traces which will be uploaded via XRay daemon.
 
