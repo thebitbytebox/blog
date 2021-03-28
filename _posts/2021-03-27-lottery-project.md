@@ -160,7 +160,7 @@ I have created separate template for each service for simplicity of demo project
 
 Once the services stack is created, make a post request to the below URL
 
-``HTTP POST http://lottery-project-alb-1877314996.ap-south-1.elb.amazonaws.com/bbb-lotto/api/v1/lottery/buy``
+``HTTP POST http://<replace-with-alb-host>/bbb-lotto/api/v1/lottery/buy``
 
 
 This should respond back a json with url to download the image
